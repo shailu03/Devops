@@ -1,0 +1,90 @@
+
+*************** Git Setup ********************
+
+1. Search 'download Git' on any serch Engine / Raise TARMAC Request
+2. Dowload git for Windows
+3. Open The downloaded file adn follow the instructions.
+4. Go to c Drive ->program files ->git -> cmd -> select path and copy it
+5. configure path in enviroenment variable 
+
+Once installed , Open cmd promt and configure the username and email:
+git config --global user.name "<username>"
+git config --global user.email "<emailid>"
+git config --global --list
+
+
+************** Java (JDK) Setup ***************
+
+1. Download Java SE Development Kit for windows X64 from Internet / Raise TARMAC Request
+2. Run and Follow the steps to install
+3. Configure Java Home
+   go to c Drive ->program files ->java -> jdk16 -> select path and copy it
+   edit environment variable - > got user variable ->new (JAVA_HOME & Paste the Path)
+   follow the same for System Variable -> new (JAVA_HOME & Paste the Path)
+4. Configure Path
+   go to c Drive ->program files ->java -> jdk16 -> bin -> select path and copy it
+   edit system variable - > edit path -> new -> paste the path
+5. Verify JAVA_HOME
+   echo %JAVA_HOME%
+6. Restart the Laptop
+
+************** Maven Setup *****************
+
+1. Download Maven Binary Zip from maven.apache.org / Raise TARMAC Request
+2. Extract Files
+3. Configure MavenHome
+   go to extracted file path -> select path and copy it
+   edit environment variable - > got user variable -> new (M2_HOME & Paste the Path)
+   follow the same for System Variable -> new (M2_HOME & Paste the Path)
+4. Configure Path
+   go inside apache maven folder -> bin -> select path and copy it
+   edit system variable - > edit path -> new -> paste the path
+5. Verify M2_HOME
+   echo %M2_HOME%
+   mvn -version
+6. Restart the Laptop
+
+
+************** Jenkins Setup **************
+
+1. Go to jenkins.io -> lts -> Windows -> Download / Raise TARMAC Request
+2. Open Downloaded File and Install
+3. After installation it automatically opens at localhost:8080
+4. Unlock the page by using password as mentioned in instructions
+
+
+************** Kubectl Setup ***************
+
+1. Download kubectl exe from official website / Raise Tarmac Request
+3. place the exe  in c:/ProgramFiles/kubectl
+3. Go to kubectl exe file path in c:/Program files/kubectl, select and copy it
+4. configure path in enviroenment variable  
+
+
+************* Helm Setup ****************
+
+1. download helm windows package from github.com/helm/helm/releases / Raise Tarmac Request
+2. Unzip the package
+3. place the unzipped folder in c:/ProgramFiles
+4. Go to helm exe file path in c:/Program files, select and copy it
+5. configure path in enviroenment variable 
+
+
+
+
+************ VSCode Setup ***************
+
+1. Download Terraform from Terraform website
+2. Unzip the Package 
+3. place the unzipped folder in c:/ProgramFiles
+4. Go to vscode exe file path in c:/Program files, select and copy it
+5. configure path in enviroenment variable  
+
+
+************ Terraform Setup **************
+
+1. Download Terraform from Terraform website
+2. Unzip the Package 
+3. place the unzipped folder in c:/ProgramFiles
+4. Go to terraform exe file path in c:/Program files, select and copy it
+5. configure path in enviroenment variable  
